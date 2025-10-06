@@ -68,23 +68,39 @@
     </div>
 
     <div class="box" id="footer-info">
-        <h2>Credits & Commissions</h2>
-        <p>Website created by <strong>Awab Ghazi</strong></p>
-        <p>Creation date: <strong>10/6/2025</strong></p>
-        <p>Last edited: <strong>10/6/2025</strong></p>
-        <p>© 2025 All rights reserved.</p>
+    <h2>Credits & Commissions</h2>
+    <p>Website created by <strong>Awab Ghazi</strong></p>
+    <p>Creation date: <strong>10/6/2025</strong></p>
+    <p>Last edited: <strong>10/6/2025</strong></p>
+    <p>© 2025 All rights reserved.</p>
 
-        <hr style="border-color: rgba(255,255,255,0.3); width: 80%; margin: 20px auto;">
+    <hr style="border-color: rgba(255,255,255,0.3); width: 80%; margin: 20px auto;">
 
-        <!-- Commissions -->
-        <h3>Commissions / Donations</h3>
-        <p>Contact me on Discord: <strong>xqr_1</strong></p>
-        <p>Support me via PayPal:</p>
-        <form action="https://www.paypal.com/donate" method="post" target="_blank">
-            <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE" />
-            <input type="submit" value="Donate with PayPal" />
-        </form>
-    </div>
+    <!-- Commissions / Donations -->
+    <h3>Commissions / Donations</h3>
+    <p>Contact me on Discord: <strong>xqr_1</strong></p>
+    <p>Support me via PayPal:</p>
+
+    <!-- Styled PayPal Button -->
+    <form action="https://www.paypal.com/paypalme/my/profile" method="post" target="_blank">
+        <input type="hidden" name="hosted_button_id" value="YOUR_PAYPAL_BUTTON_ID_HERE" />
+        <button type="submit" style="
+            background-color: #FFB830;
+            color: #000;
+            border: none;
+            padding: 12px 25px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0px 4px 12px rgba(0,0,0,0.3)';" 
+           onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+            Donate with PayPal
+        </button>
+    </form>
+</div>
+
 
     <div class="box" id="divforscroll"></div>
 
